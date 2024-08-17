@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/singup.css">
+    <title>SignUp</title>
+</head>
+
+<body class="main-color">
+
+    <div class="container my-5 text-center ">
+
+
+        <form id="regstration" class="group m-auto w-75 p-5">
+            <h1 class="text-center">Smart Login System</h1>
+            <!-- input 1 -->
+            <input id="signupName" class="form-control my-3 bg-transparent text-white" placeholder="Enter your name"
+                type="text">
+            <div class="alert alert-danger p-1 d-none  " id="nameAlert">Your Name At least 3 chat</div>
+            <!-- input 2 -->
+            <input id="signupEmail" class="form-control my-3 bg-transparent text-white" placeholder="Enter your email"
+                type="text">
+            <div class="alert alert-danger p-1 d-none  " id="emailAlert">Incorect Email EX: ahmed@gmail.com </div>
+            <!-- input 3 -->
+            <input id="signupPassword" class="form-control my-3 bg-transparent"placeholder="Enter password " type="password">
+            <div class="alert alert-danger p-1 d-none " id="passwordAlert">Incorect Password <br>At least 8 chat <br> one char UpperCase at least <br>one spesial char at least <br>-Ex: Ahmed123@</div>
+            <!-- exist & success Alerts -->
+            <div class="alert alert-danger p-1 d-none  " id="existAlert">Emaile is Already Exist</div>
+            <div class="alert alert-warning p-0 d-none bg-transparent border-0 text-warning fs-3" id="successAlert">Success</div>
+
+            <button id="signBtn" class="btn btn-outline-info w-100 my-3">Sing Up</button>
+            <p class="text-white text-center">Don’t have an account? <a class="text-white" >Signin</a>
+            </p>
+
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/all.min.js"></script>
+    <script src="JS/singup.js"></script>
+</body>
+
+</html>
